@@ -1,0 +1,9 @@
+# Force GitHub to detect SQL files as the primary language
+*.sql linguist-documentation=false
+*.sql linguist-detectable=true
+
+# Force GitHub to recognize Jupyter Notebooks if they aren't showing
+*.ipynb linguist-detectable=true
+
+# If you have Power BI files and want them to count (though GitHub tracks them as data)
+*.pbix linguist-detectable=true
